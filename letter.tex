@@ -1,12 +1,18 @@
 \documentclass{ltxdoc}
-\usepackage[UTF8,heading=true]{ctex}
+\usepackage[UTF8,heading=true,fontset=windows]{ctex}
 \usepackage[left=2cm,right=2cm,top=2.5cm,bottom=1.5cm]{geometry}
 
+\usepackage{fontspec}
 \usepackage{times}
 \usepackage{titlesec}
 \usepackage{titling}
 \usepackage{changepage}
 \usepackage{indentfirst}
+\usepackage{xeCJK}
+
+\newfontfamily\ckai{TsangerJinKai0503.ttf}[Path=fonts/]
+\newfontfamily\wbei{hywb.ttf}[Path=fonts/]
+
 \setlength{\parindent}{0em}
 
 \ctexset{
@@ -46,13 +52,13 @@
 \begin{titlepage}
     \begin{center}
         \vspace*{8cm}
-        \emph{\Huge\kaishu{对 \@ 语}}
+        \Huge\wbei{对 \@ 语}
 
         \vspace*{8cm}
         \LARGE\kaishu{李子恒}
 
         \vspace*{0.5cm}
-        \fangsong\today
+        \kaishu\today
     \end{center}
 \end{titlepage}
 
