@@ -8,11 +8,6 @@
     "terminal.integrated.fontFamily": "Sarasa Term SC",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.lineHeight": 1.2,
-    "terminal.integrated.shell.windows": "P:\\Git\\bin\\bash.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "--login",
-        "-i"
-    ],
     "latex-workshop.latex.tools": [
         {
             // 编译工具和命令
